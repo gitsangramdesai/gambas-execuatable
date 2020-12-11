@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 11 Dec 2020 12:00:00 +0000
+Source: calculator-gtk
+Binary: calculator-gtk
+Architecture: source all
+Version: 1.0.2-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: sangram <sangram@sangram-HP-Laptop-15-bs0xx>
+Changed-By: sangram <sangram@sangram-HP-Laptop-15-bs0xx>
+Description:
+ calculator-gtk - gtk package for Conflux Calculator
+Changes:
+ calculator-gtk (1.0.2-0ubuntu1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ 9cc88349c666208da5b3c73ad4b5bd1ec7b4da7f 590 calculator-gtk_1.0.2-0ubuntu1.dsc
+ 7cd2eaf52cdb6e055bf663fcd7d6d4876114e85f 807 calculator-gtk_1.0.2-0ubuntu1.tar.gz
+ 1b5df97a646474d8e4b200956f20698ad181d68b 1328 calculator-gtk_1.0.2-0ubuntu1_all.deb
+ 8acc1209e991d20ba5eb2290485e690bb48ba543 5501 calculator-gtk_1.0.2-0ubuntu1_amd64.buildinfo
+Checksums-Sha256:
+ 919b7f2a74fe2d346732bd5f8a894fb38061150b020f84123fe73e67d60d383a 590 calculator-gtk_1.0.2-0ubuntu1.dsc
+ 31c5487fd451f3d92f774869648e9677e8e01e210ffe95dae3f3dc2919e36882 807 calculator-gtk_1.0.2-0ubuntu1.tar.gz
+ d9c82cf564def44d0031624ddda076abed9d130969e6428a60fbabf96b180d9f 1328 calculator-gtk_1.0.2-0ubuntu1_all.deb
+ 265991e8f6f11e2d36af7e612906165986445c2dbea5f30900cf00e7069b003d 5501 calculator-gtk_1.0.2-0ubuntu1_amd64.buildinfo
+Files:
+ 6bd03573cf07f89c6fe7c2427bc00cc2 590 contrib/education optional calculator-gtk_1.0.2-0ubuntu1.dsc
+ 45bc689b992232e661a8fe5842241316 807 contrib/education optional calculator-gtk_1.0.2-0ubuntu1.tar.gz
+ 54ac5151e92ecf0d0121e0bea15f6d47 1328 contrib/education optional calculator-gtk_1.0.2-0ubuntu1_all.deb
+ 34d2471b158ce06e946dbd058a8be203 5501 contrib/education optional calculator-gtk_1.0.2-0ubuntu1_amd64.buildinfo

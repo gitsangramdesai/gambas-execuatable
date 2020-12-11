@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 11 Dec 2020 12:00:00 +0000
+Source: calculator-qt4
+Binary: calculator-qt4
+Architecture: source all
+Version: 1.0.2-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: sangram <sangram@sangram-HP-Laptop-15-bs0xx>
+Changed-By: sangram <sangram@sangram-HP-Laptop-15-bs0xx>
+Description:
+ calculator-qt4 - qt4 package for Conflux Calculator
+Changes:
+ calculator-qt4 (1.0.2-0ubuntu1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ 026a507fd38b7c40041081144e4eca4c4a64fe24 590 calculator-qt4_1.0.2-0ubuntu1.dsc
+ c5b4156b9a8214e2c981caef07d93c62add4e44f 808 calculator-qt4_1.0.2-0ubuntu1.tar.gz
+ 271cd3d10c89822539f4c930305997e4cbe8a44d 1332 calculator-qt4_1.0.2-0ubuntu1_all.deb
+ b1dac15fdec6ba0f35f0abb78568ab28c2764938 5501 calculator-qt4_1.0.2-0ubuntu1_amd64.buildinfo
+Checksums-Sha256:
+ 045fa82bef289644dc15387c6cf5219361c83fd3bcbfcc7216ac2ffedb78678f 590 calculator-qt4_1.0.2-0ubuntu1.dsc
+ bad78c8e5691a2bc653da49bcd493f93fc14bdf5688e6b56683b94bf1c018af8 808 calculator-qt4_1.0.2-0ubuntu1.tar.gz
+ 3e172ff192a9cb06809960c19ce00e48799f854590c6ea098153cbeef1478cbb 1332 calculator-qt4_1.0.2-0ubuntu1_all.deb
+ 7e0532c008e1928a86ef884fd6a9f1946b252fc74c4eb531bf3dadda1cb9e4bf 5501 calculator-qt4_1.0.2-0ubuntu1_amd64.buildinfo
+Files:
+ 387b2dcaee517141672d81497fe06cd1 590 contrib/education optional calculator-qt4_1.0.2-0ubuntu1.dsc
+ 38b575b730098e3890508c568aace1ad 808 contrib/education optional calculator-qt4_1.0.2-0ubuntu1.tar.gz
+ dca6d4ffe0efe4ccf961ac7aa15321e9 1332 contrib/education optional calculator-qt4_1.0.2-0ubuntu1_all.deb
+ 6ae2467c0bf5df22a6d9756d41d97dd0 5501 contrib/education optional calculator-qt4_1.0.2-0ubuntu1_amd64.buildinfo

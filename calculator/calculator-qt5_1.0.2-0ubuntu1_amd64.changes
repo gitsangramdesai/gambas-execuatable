@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 11 Dec 2020 12:00:00 +0000
+Source: calculator-qt5
+Binary: calculator-qt5
+Architecture: source all
+Version: 1.0.2-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: sangram <sangram@sangram-HP-Laptop-15-bs0xx>
+Changed-By: sangram <sangram@sangram-HP-Laptop-15-bs0xx>
+Description:
+ calculator-qt5 - qt5 package for Conflux Calculator
+Changes:
+ calculator-qt5 (1.0.2-0ubuntu1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ f8565e7dd3733714ac0021e2d110cd8f4c708f7e 590 calculator-qt5_1.0.2-0ubuntu1.dsc
+ 7c3b9da37e01bad625cd5fecfefbde09652e23ca 808 calculator-qt5_1.0.2-0ubuntu1.tar.gz
+ cb4552a677a8fc8746799520b31ed1218020e0b2 1328 calculator-qt5_1.0.2-0ubuntu1_all.deb
+ 75043bd887b52fd55a550a6e645fdf0624310758 5501 calculator-qt5_1.0.2-0ubuntu1_amd64.buildinfo
+Checksums-Sha256:
+ 69cc444e1dbaf0a69289f37950763355548b706ad4bb2b1783c39a44254d7225 590 calculator-qt5_1.0.2-0ubuntu1.dsc
+ 9eecfe6c8e02d03bd96525c97ac9871be53e1a5d6f346d9bbbdf32fb2fca4be9 808 calculator-qt5_1.0.2-0ubuntu1.tar.gz
+ d8be76435a5ad22408f5f3babbdd20d4ad9f654c7dd3b3672cf316e9bce0aca0 1328 calculator-qt5_1.0.2-0ubuntu1_all.deb
+ da5f74ad422e06b72631635bc9ad115df5594d6638ad1a75a3d047414910920a 5501 calculator-qt5_1.0.2-0ubuntu1_amd64.buildinfo
+Files:
+ 1b345e4290af1250e8053fb2f0419394 590 contrib/education optional calculator-qt5_1.0.2-0ubuntu1.dsc
+ 6b74d353bf006b5f115d07e8af6e8b58 808 contrib/education optional calculator-qt5_1.0.2-0ubuntu1.tar.gz
+ 2f0453ac958a8113686cfc7cbbd548ef 1328 contrib/education optional calculator-qt5_1.0.2-0ubuntu1_all.deb
+ 2db821ce98789b5509d3edbfa49953e7 5501 contrib/education optional calculator-qt5_1.0.2-0ubuntu1_amd64.buildinfo
