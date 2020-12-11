@@ -1,0 +1,112 @@
+' Gambas class file
+
+ v1 As Float = 0
+ opr As String = ""
+
+Public Sub Form_Open()
+
+End
+
+Public Sub BtnZero_Click()
+  vbDisplay.Text = vbDisplay.Text & "0"
+End
+
+Public Sub BtnSeven_Click()
+  vbDisplay.Text = Val(vbDisplay.Text & "7")
+End
+
+Public Sub BtnEight_Click()
+  vbDisplay.Text = Val(vbDisplay.Text & "8")
+End
+
+Public Sub BtnNine_Click()
+  vbDisplay.Text = Val(vbDisplay.Text & "9")
+End
+
+Public Sub BtnFour_Click()
+  vbDisplay.Text = Val(vbDisplay.Text & "4")
+End
+
+Public Sub BtnFive_Click()
+  vbDisplay.Text = Val(vbDisplay.Text & "5")
+End
+
+Public Sub BtnSix_Click()
+  vbDisplay.Text = Val(vbDisplay.Text & "6")
+End
+
+Public Sub BtnOne_Click()
+  vbDisplay.Text = Val(vbDisplay.Text & "1")
+End
+
+Public Sub BtnTwo_Click()
+  vbDisplay.Text = Val(vbDisplay.Text & "2")
+End
+
+Public Sub BtnThree_Click()
+  vbDisplay.Text = Val(vbDisplay.Text & "3")
+End
+
+Public Sub BtnPlus_Click()
+  v1 = vbDisplay.Text
+  opr = "a"
+  vbDisplay.Text = "0"
+End
+
+Public Sub BtnEqual_Click()
+  Select opr
+   Case "a"
+      vbDisplay.Text = v1 + Val(vbDisplay.Text)
+   Case "s"
+      vbDisplay.Text = v1 - Val(vbDisplay.Text)
+     
+   Case "m"
+    vbDisplay.Text = v1 * Val(vbDisplay.Text)
+   Case "p"
+       vbDisplay.Text = (v1 * Val(vbDisplay.Text)) / 100
+   Case "d"
+     If Val(vbDisplay.Text) <> 0 Then
+         vbDisplay.Text = v1 / Val(vbDisplay.Text)
+     Endif
+     
+  End Select
+
+End
+
+Public Sub BtnSubstract_Click()
+ v1 = vbDisplay.Text
+  opr = "s"
+  vbDisplay.Text = ""
+End
+
+Public Sub BtnMultiply_Click()
+  v1 = vbDisplay.Text
+  opr = "m"
+  vbDisplay.Text = ""
+End
+
+Public Sub BtnDivide_Click()
+  v1 = vbDisplay.Text
+  opr = "d"
+  vbDisplay.Text = ""
+End
+
+Public Sub BtnDot_Click()
+  vbDisplay.Text = vbDisplay.Text & "."
+End
+
+Public Sub BtnPercent_Click()
+  v1 = vbDisplay.Text
+  opr = "p"
+  vbDisplay.Text = ""
+End
+
+Public Sub BtnClear_Click()
+  v1 = 0
+  opr = ""
+  vbDisplay.Text = ""
+End
+
+Public Sub BtnSign_Click()
+  vbDisplay.Text = -1 * Val(vbDisplay.Text)
+End

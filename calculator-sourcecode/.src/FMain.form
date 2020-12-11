@@ -1,0 +1,87 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,60,46)
+  Text = ("Conflux Calculator")
+  { vbDisplay TextBox
+    MoveScaled(5,4,52,7)
+    Text = ("0")
+    Alignment = Align.Right
+  }
+  { BtnPercent Button
+    MoveScaled(5,13,9,4)
+    Text = ("%")
+  }
+  { BtnDivide Button
+    MoveScaled(16,13,9,4)
+    Text = ("/")
+  }
+  { BtnMultiply Button
+    MoveScaled(26,13,9,4)
+    Text = ("X")
+  }
+  { BtnMinus Button
+    MoveScaled(37,13,9,4)
+    Text = ("-")
+  }
+  { BtnSeven Button
+    MoveScaled(5,19,9,4)
+    Text = ("7")
+  }
+  { BtnEight Button
+    MoveScaled(16,19,9,4)
+    Text = ("8")
+  }
+  { BtnNine Button
+    MoveScaled(26,19,9,4)
+    Text = ("9")
+  }
+  { BtnFour Button
+    MoveScaled(5,25,9,4)
+    Text = ("4")
+  }
+  { BtnFive Button
+    MoveScaled(16,25,9,4)
+    Text = ("5")
+  }
+  { BtnSix Button
+    MoveScaled(26,25,9,4)
+    Text = ("6")
+  }
+  { BtnOne Button
+    MoveScaled(5,31,9,4)
+    Text = ("1")
+  }
+  { BtnTwo Button
+    MoveScaled(16,31,9,4)
+    Text = ("2")
+  }
+  { BtnThree Button
+    MoveScaled(26,31,9,4)
+    Text = ("3")
+  }
+  { BtnZero Button
+    MoveScaled(5,37,20,4)
+    Text = ("0")
+  }
+  { BtnDot Button
+    MoveScaled(26,37,9,4)
+    Text = (".")
+  }
+  { BtnPlus Button
+    MoveScaled(37,19,9,10)
+    Text = ("+")
+  }
+  { BtnEqual Button
+    MoveScaled(37,31,9,10)
+    Text = ("=")
+  }
+  { BtnClear Button
+    MoveScaled(48,13,9,16)
+    Text = ("AC")
+  }
+  { BtnSign Button
+    MoveScaled(48,31,9,10)
+    Text = ("+/-")
+  }
+}

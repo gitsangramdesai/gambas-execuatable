@@ -1,0 +1,24 @@
+# Gambas Project File 3.0
+Title=Conflux Calculator
+Startup=FMain
+Version=1.0.2
+Component=gb.image
+Component=gb.gui
+Component=gb.form
+Description="Simple Calculator build using GAMBAS on Ubuntu."
+Authors="mail.sangram.desai@gmail.com"
+TabSize=2
+Language=en_US
+Maintainer=sangram
+Vendor=Conflux
+VendorPrefix=Conflux
+Address=sangram@sangram-HP-Laptop-15-bs0xx
+License=General Public License
+PackageName=calculator-1.0.2
+Packager=1
+Systems=ubuntu
+Menus=ubuntu:"Applications/Education"
+Categories=ubuntu:"Education"
+Groups=ubuntu:"education"
+Tags=Calculator
+GambasVersion=3.15
